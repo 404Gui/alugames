@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulaso Games</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body">
+    <main class="container main">
+        <img src="img/logo.svg" alt="Logo Dulaso Games">
+        <section class="divisor">
+            <div class="divisor__linha"></div>
+            <img src="img/fade_bar.svg" alt="Visual bar" class="divisor__bar">
+            <div class="divisor__linha"></div>
+        </section>
+        <h1 class="pagina-titulo">Meu primeiro <span class="pagina-titulo__destaque">projeto</span></h1>
+        <section class="dashboard">
+            <ul class="dashboard__items">
+                <li class="dashboard__items__item" id="game-1">
+                    <div class="dashboard__item__img">
+                        <img src="img/miles.jpg" alt="Capa Spiderman">
+                    </div>
+                    <p class="dashboard__item__nome">Spider-Man<br></p>
+                    <a onclick="alterarStatus(1)" class="dashboard__item__button">Alugar</a>
+                </li>
+                <li class="dashboard__items__item" id="game-2">
+                    <div class="dashboard__item__img">
+                        <img src="img/fortnitee.jpg" alt="Capa Fortnite Jogo">
+                    </div>
+                    <p class="dashboard__item__nome">Fortnite</p>
+                    <a onclick="alterarStatus(2)" class="dashboard__item__button">Alugar</a>
+                </li>
+                <li class="dashboard__items__item" id="game-3">
+                    <div class="dashboard__item__img">
+                        <img src="img/mario.png" alt="Capa Mario Jogo">
+                    </div>
+                    <p class="dashboard__item__nome">Mario Odyssey</p>
+                    <a onclick="alterarStatus(3)" class="dashboard__item__button">Alugar</a>
+                </li>
+            </ul>
+        </section>
+        <img src="img/hachuras.svg" alt="Visual hachuras" class="hachuras">
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
